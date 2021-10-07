@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- hier zet je de code in de head tags -->
+        <title> Contactformulier </title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+
+    <body>
+        <nav>
+            <a href="index.html">Back to homepage</a>
+        </nav>
+
+        <form name="contact" method="POST" data-netlify="true" class="form">
+            <p>
+              <label>Your Name: <input type="text" name="name" /></label>   
+            </p>
+            <p>
+              <label>Your Email: <input type="email" name="email" /></label>
+            </p>
+            <p>
+              <label>Your telephone number: <input type="tel" name="tel" /></label>
+            </p>
+            <p>
+              <label>Your Age: <input type="age" name="age" /></label>
+            </p>
+            <p>
+              <label>Your birthday: <input type="date" name="date" /></label>
+            </p>
+            <p>
+              <label>Your gender: 
+                <input type="radio" name="male" label for="male">male 
+                <input type="radio" name="female" label for="female">female
+              </label>
+            </p>
+            <p>
+              <label>Favoriete cuisine: 
+                <input type="checkbox" name="frans" label for="frans">frans
+                <input type="checkbox" name="italiaans" label for="italiaans">italiaans
+                <input type="checkbox" name="spaans" label for="spaans">spaans
+                <input type="checkbox" name="arabisch" label for="arabisch">arabisch
+              </label>
+            </p>
+            <p>
+              <label>favoriete kleur van schort: <input type="color" name="colorpicker" /></label>
+            </p>
+            <p>
+              <label>Biografie: <textarea name="message"></textarea></label>
+            </p>
+            <p>
+              <label>Upload je laatste recept: <input type="file" name="file" /></label>
+            </p>
+            <p>
+              <label>URL naar je website: <input type="url" name="url" /></label>
+            </p>
+            <p>
+              <button type="reset">reset</button>
+            </p>
+            <p>
+              <button type="submit">Send</button>
+            </p>
+          </form>
+        
+    </body>
+
+
+</html>
